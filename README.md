@@ -2,10 +2,11 @@
 
 Cloned from:
 
-.
+https://github.com/dialogflow/dialogflow-fulfillment-nodejs
 
-## Notes
+## Steps
 
+```
 npm i -g firebase-admin@latest
 
 npm i -g firebase-functions@latest
@@ -20,15 +21,19 @@ cd
 
 npm i 
 
+npm install --save firebase-functions@latest
+
 firebase login
 
 firebase use fir-react-jabernathy
-
-firebase deploy --only functions:dialogflowFirebaseFulfillment
 
   "engines": {
     "node": "8"
   },
 
+firebase deploy --only functions:dialogflowFirebaseFulfillment
 
+cd
 
+git add, commit, push
+```
